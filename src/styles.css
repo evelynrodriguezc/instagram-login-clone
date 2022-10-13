@@ -1,6 +1,7 @@
 :root {
-    --gray-color: gray;
-    --blue-color: #3851a4
+    --gray-color: #8e8eaa;
+    --blue-color: #3851a4;
+    --buttons-color: #afdcf9;
 }
 
 /*Reset values*/
@@ -28,6 +29,10 @@ a {
     text-decoration: none;
 }
 
+.main--carousel {
+    display: none
+}
+
 .main--login {
     width: 90%;
     margin: 20px auto;
@@ -38,8 +43,9 @@ a {
     margin-bottom: 20px;
 }
 
-.main--login .main--title > h1 {
-    font-size: 3.4rem;
+.main--login .main--title img {
+    width: 50%;
+    margin: 10px;
 }
 
 /*Form styles*/
@@ -62,6 +68,10 @@ a {
     margin: 0 auto;
     padding: 10px;
     width: 80px;
+    background-color: var(--buttons-color);
+    border: 0;
+    color: white;
+    font-weight: 600;
 }
 
 .divisor {
@@ -79,12 +89,15 @@ a {
 
 /*Links styles*/
 
+.login--alternative {
+
+}
 
 .alternative--link {
     color: var(--blue-color);
     display: block;
     text-align: center;
-    margin: 15px auto;
+    margin: 15px 0;
 }
 
 .alternative--link__bold {
@@ -98,4 +111,93 @@ a {
 .alternative--paragraph {
     margin-top: 60px;
     text-align: center;
+}
+
+.links--paragraph {
+    margin: 50px 0 25px;
+    text-align: center;
+}
+
+.alternative--link__blue {
+    color: var(--blue-color);
+    font-weight: 700;
+
+}
+
+/*Buttons imgs styles*/
+
+.links--list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.links--list img {
+    width: 100;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/*Footer styles */
+
+.footer--list {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 768;
+    font-size: 1.4rem;
+}
+
+.footer--list li {
+    margin: 5px;
+}
+
+.footer--list li a {
+    color: var(--gray-color);
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: #fafafa;
+    }
+
+    .main--login {
+        border: 1px solid var(--gray-color);
+        background-color: white;
+        padding: 15px;
+        border-radius: 10px;
+        max-width: 370px;
+    }  
+}
+
+@media (min-width: 1024px){
+
+    .main {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+        max-width: 850px;
+    }
+
+    .main--carousel {
+        display: block;
+        position: relative;
+        background-image: url("./assets/phonesimgs.png");
+        background-size: cover;
+        width: 400px;
+        height: 600px;
+        
+    }
+
+    .main--carousel img {
+        position: absolute;
+        right: 15px;
+        bottom: 56px;
+        height: 87%;
+
+    }
 }
