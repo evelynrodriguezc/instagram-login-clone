@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="shortcut icon" href="./src/imgs/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Carme&family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/styles.css">
 
-    <title>Instagram</title>
+    
 </head>
 <body>
     <main class="main">
@@ -17,22 +19,26 @@
             <img src="./src/assets/igimg1.png" alt="Carousel photos">
         </section>
         <section class="main--login">
-            <div class="main--title">
-                <img src="./src/assets/instagram.png" alt="instagram logo">
+            <div class="main--first">
+                <div class="main--title">
+                    <img src="./src/assets/instagram.png" alt="instagram logo">
+                </div>
+                <form action="" class="login--form">
+                    <input type="text" placeholder="Phone number, username, or email" class="form--input">
+                    <input type="password" placeholder="Password" class="form--input">
+                    <button type="button" class="form--button">Log In</button>
+                </form>
+                <div class="divisor">
+                    <div></div>
+                    <span>OR</span>
+                    <div></div>
+                </div>
+                <div class="login--alternative">
+                    <a href="/" class="alternative--link alternative--link__bold">Login with Facebook</a>
+                    <a href="/" class="alternative--link alternative--link__small">Forgot password?</a>
+                    </div>
             </div>
-            <form action="" class="login--form">
-                <input type="text" placeholder="Phone number, username, or email" class="form--input">
-                <input type="password" placeholder="Password" class="form--input">
-                <button type="button" class="form--button">Log In</button>
-            </form>
-            <div class="divisor">
-                <div></div>
-                <span>OR</span>
-                <div></div>
-            </div>
-            <div class="login--alternative">
-                <a href="/" class="alternative--link alternative--link__bold">Login with Facebook</a>
-                <a href="/" class="alternative--link alternative--link__small">Forgot password?</a>
+            <div class="login--register">
                 <p class="alternative--paragraph">Don't have an account? <a href="" 
                     class="alternative--link__small alternative--link__blue">Sign Up</a> </p>
             </div>
