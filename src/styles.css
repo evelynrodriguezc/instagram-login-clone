@@ -65,6 +65,7 @@ a {
     margin: 10px 0;
     border-radius: 4px;
     border: 1px solid var(--gray-color);
+    cursor: not-allowed;
 }
 
 .login--form .form--button {
@@ -93,9 +94,6 @@ a {
 
 /*Links styles*/
 
-.login--alternative {
-
-}
 
 .alternative--link {
     color: var(--blue-color);
@@ -105,7 +103,7 @@ a {
 }
 
 .alternative--link__bold {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .alternative--link__small {
@@ -123,7 +121,7 @@ a {
 
 .alternative--link__blue {
     color: var(--blue-color);
-    font-weight: 700;
+    font-weight: 600;
 
 }
 /* Register */
@@ -213,3 +211,4 @@ a {
 
     }
 }
+
