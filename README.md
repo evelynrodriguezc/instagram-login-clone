@@ -1,5 +1,5 @@
 # instagram-clon
 
-### Using: HTML, CSS and REACT
+### Using: HTML and CSS 
 
 Instagram Log In with responsive design.
