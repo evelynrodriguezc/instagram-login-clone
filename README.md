@@ -14,4 +14,4 @@ Disclaimer: This is an instagram login clone used for educational purposes*
    
 ## Live Website
 
-You can visit the live version of the website here: [Smart Home Solutions](https://evelynrodriguezc.github.io/instagram-login-clone/)
+You can visit the live version of the website here: [Clone Example](https://evelynrodriguezc.github.io/instagram-login-clone/)
